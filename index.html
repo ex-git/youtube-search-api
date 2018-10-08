@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Simple Youtube Search API</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="body">
+    <header role="banner">
+      <h1>Youtube Search API</h1>
+    </header>
+    <section role="region">
+    <form method="POST" class="js-form">
+      <legend>Search Video</legend>
+      <label for="keyword">Type Some Keyword</label>
+      <input id="keyword" type="text" placeholder="Type some thing here">
+      <button type="submit">Search</button>
+    </form>
+    </section>
+    <section role="region" class="searchResult" hidden aria-live="assertive">
+      <header role="banner" aria-live="assertive" class="totalResult">
+        <h2>Result</h2>
+      </header>
+      <main role="main" class="result">
+        <div class="js-result">
+        </div>
+        <div class="js-video">
+        </div>
+      </main>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  position: relative
+}
+
+.gray {
+  background-color:gray;
+  right: -9999px;
+}
+
+.video {
+  position: fixed;
+  top:10%;
+  bottom:0;
+  left:0;
+  right:0;
+  width: 420px;
+  margin:auto;
+}
+
+.close {
+  background-color:red;
+  float:right;
+  display:block;
+  cursor:pointer;
+}
